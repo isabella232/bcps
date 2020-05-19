@@ -30,9 +30,9 @@ But please consult the semantic versioning document for more information and adj
 
 ### WIP Listing
 
-| Number                    | Title         | Owner                                                  | Type          | Status   |
-|---------------------------|---------------|--------------------------------------------------------|---------------|----------|
-| [WIP-2020-001](wip-2020-001.md) | WIP Template | Christopher Allen | Process | Draft |
+| Number                    | Title         | Version | Owner                                                  | Type          | Status   |
+|---------------------------|---------------|---------|----------------------------------------------|---------------|----------|
+| [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | Christopher Allen | Process | Draft |
 
 
 ## Origin, Authors, Copyright & Licenses
