@@ -14,19 +14,6 @@ If additional documentation is required, please PR a matching directory (e.g., a
 
 Please also add your WIP to the "WIP Listing" below.
 
-### WIP Numbering
-
-Please number all WIPs four-digit number representing the current year (`YYYY`) followed by a three-digit sequence number for that year (`SSS`). For example: `wip-2020-001` is the first WIP for 2020, `wip-2020-017` is the 17th, and `wip-2021-001` is the first WIP for 2021.
-
-_Note that the sequence number reverts to 001 at the start of each year._
-
-### WIP Versioning
-
-When updating WIPs, please use [semantic versioning](https://semver.org/) for your version number.
-
-Most briefly: your version number should be of the form X.Y.Z, where `X` is the major number ("0" for a WIP in progress; "1" for a fully drafted WIP; and "2" or higher for a new version that has introduced a backward-incompatible change), `Y` is the minor number (for a backward-compatible new feature), and `Z` is the patch number (for fixing typos and making other clarifications that don't fundamentally change what the WIP means).
-
-But please consult the semantic versioning document for more information and adjust appropriately for the fact that these are textual WIPs, not software.
 
 ### WIP Listing
 
@@ -34,6 +21,50 @@ But please consult the semantic versioning document for more information and adj
 |---------------------------|---------------|---------|----------------------------------------------|---------------|----------|
 | [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | Christopher Allen | Process | Draft |
 
+## WIP Process
+
+WIPs are creating to address a flaw or deficiency in current wallet designs, or to improve usability, security, or other functionality. They can be focused on cryptocurrency wallets, identity wallets, or both.
+
+WIPs are presented publicly here to give them a chance to mature and evolve, under the light of public scrutiny, which can provide invaluable cooperative feedback: what we do together is often greater than what we do alone.
+
+### WIP Numbere
+
+Please number all WIPs four-digit number representing the current year (`YYYY`) followed by a three-digit sequence number for that year (`SSS`). For example: `wip-2020-001` is the first WIP for 2020, `wip-2020-017` is the 17th, and `wip-2021-001` is the first WIP for 2021.
+
+_Note that the sequence number reverts to 001 at the start of each year._
+
+### WIP Title
+
+Please be sure that your title is concise, yet informative.
+
+### WIP Version
+
+When updating WIPs, please use [semantic versioning](https://semver.org/) for your version number.
+
+### WIP Owner
+
+Please list the person primarily responsible for the WIP, and moving it forward, as the owner. If there are multiple authors, they should be listed on the WIP itself, not on this overview.
+
+Most briefly: your version number should be of the form X.Y.Z, where `X` is the major number ("0" for a WIP in progress; "1" for a fully drafted WIP; and "2" or higher for a new version that has introduced a backward-incompatible change), `Y` is the minor number (for a backward-compatible new feature), and `Z` is the patch number (for fixing typos and making other clarifications that don't fundamentally change what the WIP means).
+
+But please consult the semantic versioning document for more information and adjust appropriately for the fact that these are textual WIPs, not software.
+
+### WIP Type
+
+WIPs use the same standard statuses used on most other \*IPs:
+
+   * *Standards* — A WIP eventually intended to move onto a standards track, such as a BIP, IETF, or W3C.
+   * *Informational* — A WIP discussing a wallet issue without explicitly proposing a new feature.
+
+### WIP Status
+
+WIPs move through much the same process as other \*IPS, with the exception that after finalization we expect them to move onto another track:
+
+   * *Draft* — The initial draft of a WIP. Contributors may work on a WIP as they see fit when it remains version 0.Y.Z. When they increment to 1.0.0, they are requested BCC review.
+   * *Accepted* — A major draft that has been accepted by BCC for further work.
+   * *Rejected* — A major draft that has been rejected by BCC, possibly because it needs more drafting.
+   * *Mature* — A draft that has been fully matured through BCC working with the author, that we feel is ready for the next step.
+   * *Submitted* — A draft that has been submitted to another standards body. (The precise body should be listed as part of this status)
 
 ## Origin, Authors, Copyright & Licenses
 
