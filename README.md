@@ -14,6 +14,8 @@ If additional documentation is required, please PR a matching directory (e.g., a
 
 Please also add your WIP to the "WIP Listing" below.
 
+_All contributions to this repo require a [GPA Signed Contributor License Agreement][CLA.md]._
+
 
 ### WIP Listing
 
@@ -41,13 +43,13 @@ Please be sure that your title is concise, yet informative.
 
 When updating WIPs, please use [semantic versioning](https://semver.org/) for your version number.
 
-### WIP Owner
-
-Please list the person primarily responsible for the WIP, and moving it forward, as the owner. If there are multiple authors, they should be listed on the WIP itself, not on this overview.
-
 Most briefly: your version number should be of the form X.Y.Z, where `X` is the major number ("0" for a WIP in progress; "1" for a fully drafted WIP; and "2" or higher for a new version that has introduced a backward-incompatible change), `Y` is the minor number (for a backward-compatible new feature), and `Z` is the patch number (for fixing typos and making other clarifications that don't fundamentally change what the WIP means).
 
 But please consult the semantic versioning document for more information and adjust appropriately for the fact that these are textual WIPs, not software.
+
+### WIP Owner
+
+Please list the person primarily responsible for the WIP, and moving it forward, as the owner. If there are multiple authors, they should be listed on the WIP itself, not on this overview.
 
 ### WIP Type
 
