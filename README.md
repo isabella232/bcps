@@ -14,7 +14,7 @@ If additional documentation is required, please PR a matching directory (e.g., a
 
 Please also add your WIP to the "WIP Listing" below.
 
-_All contributions to this repo require a [GPA Signed Contributor License Agreement][CLA.md]._
+_All contributions to this repo require a [GPA Signed Contributor License Agreement](CLA.md) (which will be needed to submit to other organizations like IETF and W3C)._
 
 
 ### WIP Listing
