@@ -27,7 +27,7 @@ WIPs are creating to address a flaw or deficiency in current wallet designs, or 
 
 WIPs are presented publicly here to give them a chance to mature and evolve, under the light of public scrutiny, which can provide invaluable cooperative feedback: what we do together is often greater than what we do alone.
 
-### WIP Numbere
+### WIP Number
 
 Please number all WIPs four-digit number representing the current year (`YYYY`) followed by a three-digit sequence number for that year (`SSS`). For example: `wip-2020-001` is the first WIP for 2020, `wip-2020-017` is the 17th, and `wip-2021-001` is the first WIP for 2021.
 
