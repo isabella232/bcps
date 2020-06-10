@@ -23,6 +23,9 @@ _All contributions to this repo require a [Signed Contributor License Agreement]
 |---------------------------|---------------|---------|----------------------------------------------|---------------|----------|
 | [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | Christopher Allen | Process | Draft |
 
+_Also see our [Research](https://github.com/BlockchainCommons/Research/blob/master/README.md) and our [Testimony](https://github.com/BlockchainCommons/Testimony/blob/master/README.md)._
+
+
 ## WIP Process
 
 WIPs are creating to address a flaw or deficiency in current wallet designs, or to improve usability, security, or other functionality. They can be focused on cryptocurrency wallets, identity wallets, or both.
