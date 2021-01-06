@@ -1,5 +1,7 @@
 # WIPs: Wallet Improvement Proposals
 
+![](images/logos/bcc-wips-screen.jpg)
+
 WIPs are Wallet Improvement Proposals, meant to improve cryptocurrency and identity wallets. 
 
 The goal of Blockchain Commons is to specify, setup, and mature these proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/).
