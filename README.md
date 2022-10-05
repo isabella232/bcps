@@ -64,9 +64,9 @@ Please list the person primarily responsible for the WIP, and moving it forward,
 
 ### WIP Type
 
-WIPs use the same standard statuses used on most other \*IPS:
+WIPs use the same standard statuses used on most other \*IPs (such as BIPs and SLIPs):
 
-   * *Process* — An internal document for our own usage
+   * *Process* — An internal document for our own usage.
    * *Standards* — A WIP eventually intended to move onto a standards track, such as a BIP, IETF, or W3C.
    * *Informational* — A WIP discussing a wallet issue without explicitly proposing a new feature.
 
