@@ -24,7 +24,7 @@ _All contributions to this repo require a [Signed Contributor License Agreement]
 ### WIP Listing
 
 | Number                    | Title         | Version | Organization | Owner                                                  | Type          | Status   |
-|---------------------------|---------------|---------|----------------------------------------------|---------------|----------|
+|---------------------------|---------------|---------|-----|----------------------------------------------|---------------|----------|
 | [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | | Christopher Allen | Process | Draft |
 | [WIP-2022-001](wip-2022-001.md) | Collaborative Seed Recovery | 1.0.0 | RWOT11 | Christopher Allen | Informational | Accepted |
 | [WIP-2022-002](wip-2022-002.md) | Elision, Redaction, and Noncorrelation in Smart Documents | 1.0.0 | RWOT11 | Christopher Allen | Informational | Accepted |
