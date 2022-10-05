@@ -6,7 +6,7 @@ WIPs are Wallet Improvement Proposals, meant to improve cryptocurrency and ident
 
 The goal of Blockchain Commons is to specify, setup, and mature these proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/).
 
-This directory includes all wallet-related documents intended for the consumption of a larger audience, and so incorporates RWOT advance readings and other similar documents.
+This directory includes all wallet-related documents intended for the consumption of a larger audience, and so incorporates RWOT advance readings and other similar documents. Some of these are liekly not to match the precise organizational formatting described in the template.
 
 ## WIPs
 
