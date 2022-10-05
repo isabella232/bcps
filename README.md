@@ -6,7 +6,7 @@ WIPs are Wallet Improvement Proposals, meant to improve cryptocurrency and ident
 
 The goal of Blockchain Commons is to specify, setup, and mature these proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/).
 
-This directory includes all wallet-related documents intended for the consumption of a larger audience, and so incorporates RWOT advance readings and other similar documents. Some of these are liekly not to match the precise organizational formatting described in the template.
+This directory includes all wallet-related documents turned over to both standards and pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
 
 ## WIPs
 
@@ -23,9 +23,11 @@ _All contributions to this repo require a [Signed Contributor License Agreement]
 
 ### WIP Listing
 
-| Number                    | Title         | Version | Owner                                                  | Type          | Status   |
+| Number                    | Title         | Version | Organization | Owner                                                  | Type          | Status   |
 |---------------------------|---------------|---------|----------------------------------------------|---------------|----------|
-| [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | Christopher Allen | Process | Draft |
+| [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | | Christopher Allen | Process | Draft |
+| [WIP-2022-001](wip-2022-001.md) | Collaborative Seed Recovery | 1.0.0 | RWOT11 | Christopher Allen | Informational | Accepted |
+| [WIP-2022-002](wip-2022-002.md) | Elision, Redaction, and Noncorrelation in Smart Documents | 1.0.0 | RWOT11 | Christopher Allen | Informational | Accepted |
 
 _Also see our [Research](https://github.com/BlockchainCommons/Research/blob/master/README.md) and our [Testimony](https://github.com/BlockchainCommons/Testimony/blob/master/README.md)._
 
@@ -35,6 +37,8 @@ _Also see our [Research](https://github.com/BlockchainCommons/Research/blob/mast
 WIPs are creating to address a flaw or deficiency in current wallet designs, or to improve usability, security, or other functionality. They can be focused on cryptocurrency wallets, identity wallets, or both.
 
 WIPs are presented publicly here to give them a chance to mature and evolve, under the light of public scrutiny, which can provide invaluable cooperative feedback: what we do together is often greater than what we do alone.
+
+WIPs should be initiated with the [template](wip-2020-001.md), which also contains organizational suggestions that may or may not be appropriate for a particular submission.
 
 ### WIP Number
 
@@ -62,6 +66,7 @@ Please list the person primarily responsible for the WIP, and moving it forward,
 
 WIPs use the same standard statuses used on most other \*IPs:
 
+   * *Process* — An internal document for our own usage
    * *Standards* — A WIP eventually intended to move onto a standards track, such as a BIP, IETF, or W3C.
    * *Informational* — A WIP discussing a wallet issue without explicitly proposing a new feature.
 
