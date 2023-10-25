@@ -9,7 +9,7 @@ BCPs are Blockchain Commons Proposals, meant to improve cryptocurrency and ident
 
 A BCP may still be fluid, but there will be community discussion for changes and generally a community-oriented process for continuing to expand the proposals. The ultimate goal is to specify, setup, and mature these Proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/). (Requirements from a standards body are one of the main reasons that a BCP may require changes, even breaking changes, as was the process when Gordian Envelope moved through the IETF.)
 
-This directory includes all wallet-related documents turned over to both standards and pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
+This directory includes all wallet-related documents that have matured and/or that have been turned over to standards or pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
 
 ## WIPs
 
