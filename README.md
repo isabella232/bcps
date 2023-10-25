@@ -75,12 +75,11 @@ BCP use the same standard statuses used on most other \*IPs (such as BIPs and SL
 
 BCPs move through much the same process as other \*IPS, with the exception that after finalization we expect them to move onto another track:
 
-   * *Draft* — The initial draft of a BCP. Contributors may work on a BCP as they see fit when it remains version 0.Y.Z. When they increment to 1.0.0, they are requested BCC review.
-   * *Accepted* — A major draft that has been accepted by BCC for further work.
-   * *Rejected* — A major draft that has been rejected by BCC, possibly because it needs more drafting.
-   * *Mature* — A draft that has been fully matured through BCC working with the author, that we feel is ready for the next step.
-   * *Submitted* — A draft that has been submitted to another standards body. (The precise body should be listed as part of this status)
-
+   * *Work Item* — A major BCR or BCP draft that has been accepted by BC for further work.
+   * *Mature* — A BCP draft that has been fully matured and that we feel is ready for the next step.
+   * *Submitted* — A BCP draft that has been submitted to another standards body. (The precise body should be listed as part of this status)
+   * *Deprecated* — A BCR or BCP draft that has been superseded by another draft.
+     
 ## Origin, Authors, Copyright & Licenses
 
 Unless otherwise noted (either in this [/README.md](./README.md) or in the file's header comments) the contents of this repository are Copyright © 2020 by Blockchain Commons, LLC, and are [licensed](./LICENSE) under the [spdx:BSD-2-Clause Plus Patent License](https://spdx.org/licenses/BSD-2-Clause-Patent.html).
