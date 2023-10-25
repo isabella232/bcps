@@ -1,4 +1,4 @@
-# Blackchain Commons Proposals
+# Blockchain Commons Proposals
 
 ![](images/logos/bcc-proposal-screen.png)
 
