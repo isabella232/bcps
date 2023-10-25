@@ -5,11 +5,9 @@
 BCPs are Blockchain Commons Proposals, meant to promte open, interoperable, secure & compassionate digital infrastructure. These are still not standards, but they are more mature that our [BCR Research papers](https://github.com/BlockchainCommons/Research/blob/master/README.md) and/or have been deployed within a wider community. BCRs usually become BCPs if they meet at least one of two criteria:
 
 * Blockchain Commons feels that they have matured and are ready to advance.
-* Two or more companies are using a BCR, it fulfills the [Gordian Principles](https://developer.blockchaincommons.com/principles/).
+* Two or more companies have implemented a BCR and it fulfills the [Gordian Principles](https://developer.blockchaincommons.com/principles/).
 
 In addition, any conflicts with existing standards must be understood, considered worthwhile, and clearly discussed when a BCR is promoted.
-
-See [Promotion](PROMOTION.md) for the administrative tasks to update a BCR to a BCP.
 
 When a BCR becomes a BCP, we:
 * Consider the community to have become an important part of the conversation.
@@ -19,15 +17,17 @@ A BCP may still be fluid, but there will be community discussion for changes and
 
 This directory includes all documents that have matured and/or that have been turned over to standards or pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
 
-## WIPs
+## BCP
 
-To create a WIP, first please consult the [WIP template](wip-2020-001.md), which is WIP #2020-001.
+See [Promotion](PROMOTION.md) for the administrative tasks to update a BCR to a BCP.
 
-To contribute your WIP using the template format, you can fork the repo, add the appropriate files, then submit a PR. For the core WIP file, please use the format `wip-YYYY-SSS.md` for the file name, where `YYYY` and `SSS` match the current year and next sequence number, per "WIP Numbering", below.
+To create a BCP, first please consult the [BCP template](bcp-2020-001.md), which is BCP #2020-001.
 
-If additional documentation is required, please PR a matching directory (e.g., a directory called `wip-2020-001` for `wip-2020-001.md`) with the documents as contents.
+To contribute your BCP using the template format, you can fork the repo, add the appropriate files, then submit a PR. For the core BCP file, please use the format `bcp-YYYY-SSS.md` for the file name, where `YYYY` and `SSS` match the current year and next sequence number, per "BCP Numbering", below.
 
-Please also add your WIP to the "WIP Listing" below.
+If additional documentation is required, please PR a matching directory (e.g., a directory called `bcp-2020-001` for `bcp-2020-001.md`) with the documents as contents.
+
+Please also add your BCP to the "BCP Listing" below.
 
 _All contributions to this repo require a [Signed Contributor License Agreement](CLA.md) (which will be needed if we submit to other organizations like IETF, W3C, Linux Foundation, etc.)._
 
@@ -36,60 +36,46 @@ _All contributions to this repo require a [Signed Contributor License Agreement]
 
 | Number                    | Title         | Version | Org. | Owner                                                  | Type          | Status   |
 |---------------------------|---------------|---------|-----|----------------------------------------------|---------------|----------|
-| [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | | Christopher Allen | Process | Draft |
-| [WIP-2022-001](wip-2022-001.md) | Collaborative Seed Recovery | 1.0.0 | RWOT11 | Christopher Allen | Informational | Accepted |
-| [WIP-2022-002](wip-2022-002.md) | Elision, Redaction, and Noncorrelation in Smart Documents | 1.0.0 | RWOT11 | Christopher Allen | Informational | Draft |
-
-* *Process* documents are meant to help support the creation of BCPs.
-* *Informational* documents are descriptions that have been released to other organizations for discussion.
-* *Specifications* are more precise specifications, and the heart of the BCP process.
+| [BCP-2020-001](bcp-2020-001.md) | BCP Template | 0.1.0 | | Christopher Allen | Process | Draft |
 
 _Also see our [Research](https://github.com/BlockchainCommons/Research/blob/master/README.md) and our [Testimony](https://github.com/BlockchainCommons/Testimony/blob/master/README.md)._
 
 
-## WIP Process
+### BCP Number
 
-WIPs are creating to address a flaw or deficiency in current wallet designs, or to improve usability, security, or other functionality. They can be focused on cryptocurrency wallets, identity wallets, or both.
-
-WIPs are presented publicly here to give them a chance to mature and evolve, under the light of public scrutiny, which can provide invaluable cooperative feedback: what we do together is often greater than what we do alone.
-
-WIPs should be initiated with the [template](wip-2020-001.md), which also contains organizational suggestions that may or may not be appropriate for a particular submission.
-
-### WIP Number
-
-Please number all WIPs four-digit number representing the current year (`YYYY`) followed by a three-digit sequence number for that year (`SSS`). For example: `wip-2020-001` is the first WIP for 2020, `wip-2020-017` is the 17th, and `wip-2021-001` is the first WIP for 2021.
+Please number all BCPs with a four-digit number representing the current year (`YYYY`) followed by a three-digit sequence number for that year (`SSS`). For example: `bcp-2020-001` is the first BCP for 2020, `bcp-2020-017` is the 17th, and `bcp-2021-001` is the first BCP for 2021.
 
 _Note that the sequence number reverts to 001 at the start of each year._
 
-### WIP Title
+### BCP Title
 
 Please be sure that your title is concise, yet informative.
 
-### WIP Version
+### BCP Version
 
-When updating WIPs, please use [semantic versioning](https://semver.org/) for your version number.
+When updating BCPs, please use [semantic versioning](https://semver.org/) for your version number.
 
-Most briefly: your version number should be of the form X.Y.Z, where `X` is the major number ("0" for a WIP in progress; "1" for a fully drafted WIP; and "2" or higher for a new version that has introduced a backward-incompatible change), `Y` is the minor number (for a backward-compatible new feature), and `Z` is the patch number (for fixing typos and making other clarifications that don't fundamentally change what the WIP means).
+Most briefly: your version number should be of the form X.Y.Z, where `X` is the major number ("0" for a BCP in progress; "1" for a fully drafted BCP; and "2" or higher for a new version that has introduced a backward-incompatible change), `Y` is the minor number (for a backward-compatible new feature), and `Z` is the patch number (for fixing typos and making other clarifications that don't fundamentally change what the BCP means).
 
-But please consult the semantic versioning document for more information and adjust appropriately for the fact that these are textual WIPs, not software.
+But please consult the semantic versioning document for more information and adjust appropriately for the fact that these are textual BCPs, not software.
 
-### WIP Owner
+### BCP Owner
 
-Please list the person primarily responsible for the WIP, and moving it forward, as the owner. If there are multiple authors, they should be listed on the WIP itself, not on this overview.
+Please list the person primarily responsible for the BCP, and moving it forward, as the owner. If there are multiple authors, they should be listed on the BCP itself, not on this overview.
 
-### WIP Type
+### BCP Type
 
-WIPs use the same standard statuses used on most other \*IPs (such as BIPs and SLIPs):
+BCP use the same standard statuses used on most other \*IPs (such as BIPs and SLIPs):
 
    * *Process* — An internal document for our own usage.
-   * *Standards* — A WIP eventually intended to move onto a standards track, such as a BIP, IETF, or W3C.
-   * *Informational* — A WIP discussing a wallet issue without explicitly proposing a new feature.
+   * *Specification* — A BCP eventually intended to move onto a standards track, such as a BIP, IETF, or W3C.
+   * *Informational* — A BCP discussing a wallet issue without explicitly proposing a new feature.
 
-### WIP Status
+### BCP Status
 
-WIPs move through much the same process as other \*IPS, with the exception that after finalization we expect them to move onto another track:
+BCPs move through much the same process as other \*IPS, with the exception that after finalization we expect them to move onto another track:
 
-   * *Draft* — The initial draft of a WIP. Contributors may work on a WIP as they see fit when it remains version 0.Y.Z. When they increment to 1.0.0, they are requested BCC review.
+   * *Draft* — The initial draft of a BCP. Contributors may work on a BCP as they see fit when it remains version 0.Y.Z. When they increment to 1.0.0, they are requested BCC review.
    * *Accepted* — A major draft that has been accepted by BCC for further work.
    * *Rejected* — A major draft that has been rejected by BCC, possibly because it needs more drafting.
    * *Mature* — A draft that has been fully matured through BCC working with the author, that we feel is ready for the next step.
