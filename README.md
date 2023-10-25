@@ -9,6 +9,8 @@ BCPs are Blockchain Commons Proposals, meant to promte open, interoperable, secu
 
 In addition, any conflicts with existing standards must be understood, considered worthwhile, and clearly discussed when a BCR is promoted.
 
+See [Promotion](PROMOTION.md) for the administrative tasks to update a BCR to a BCP.
+
 When a BCR becomes a BCP, we:
 * Consider the community to have become an important part of the conversation.
 * Consider them to be viable candidates for further standardization.
