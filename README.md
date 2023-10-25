@@ -40,6 +40,7 @@ _All contributions to this repo require a [Signed Contributor License Agreement]
 
 _Also see our [Research](https://github.com/BlockchainCommons/Research/blob/master/README.md) and our [Testimony](https://github.com/BlockchainCommons/Testimony/blob/master/README.md)._
 
+Please feel free to submit a PR to request the advancement of a _BCR Work Item_ to a _BCP_ if it meets the criteria of two or more companies have implemented the BCR. Simply follow the administrative steps for [Promotion](PROMOTION.md). If a BCR does not have two-company commitment, but you think it's sufficiently mature and/or important, please [contact us](mailto:team@blockchaincommons.com).
 
 ### BCP Number
 
@@ -68,7 +69,7 @@ Please list the person primarily responsible for the BCP, and moving it forward,
 BCP use the same standard statuses used on most other \*IPs (such as BIPs and SLIPs):
 
    * *Process* — An internal document for our own usage.
-   * *Specification* — A BCP eventually intended to move onto a standards track, such as a BIP, IETF, or W3C.
+   * *Standards* — A BCP eventually intended to move onto a standards track, such as a BIP, IETF, or W3C.
    * *Informational* — A BCP discussing a wallet issue without explicitly proposing a new feature.
 
 ### BCP Status
