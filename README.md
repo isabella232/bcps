@@ -2,24 +2,32 @@
 
 ![](images/logos/bcc-proposal-screen.png)
 
-BCPs are Blockchain Commons Proposals, meant to promte open, interoperable, secure & compassionate digital infrastructure. These are still not standards, but they are more mature that our [BCR Research papers](https://github.com/BlockchainCommons/Research/blob/master/README.md) and/or have been deployed within a wider community. BCRs usually become BCPs if they meet at least one of two criteria:
+BCPs are Blockchain Commons Proposals, meant to promte open, interoperable, secure & compassionate digital infrastructure. These are still not standards, but they are more mature that our [BCR Research (BCR) papers](https://github.com/BlockchainCommons/Research/blob/master/README.md) and/or have been deployed within a wider community. BCRs usually become BCPs if they meet at least one of two criteria:
 
-* Two or more companies have implemented a BCR.
+* Two or more companies have implemented a BCR; and/or
 * Blockchain Commons feels that they have matured and are ready to advance.
 
 In addition, any conflicts with existing standards must be understood, considered worthwhile, and clearly discussed when a BCR is promoted.
 
 When a BCR becomes a BCP, we:
-* Consider the community to have become an important part of the conversation.
-* Consider them to be viable candidates for further standardization.
+* Increasingly include the community as an important part of the conversation.
+* Consider the BCP to be a viable candidate for further standardization.
 
-A BCP may still be fluid, but there will be community discussion for changes and generally a community-oriented process for continuing to expand the proposals. The ultimate goal is to specify, setup, and mature these Proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/). (Requirements from a standards body are one of the main reasons that a BCP may require changes, even breaking changes, as was the process when Gordian Envelope became an IETF Internet Draft.)
+A BCP may still be fluid, but there will be community discussion for changes and generally a community-oriented process for continuing to expand the Proposal. The ultimate goal is to specify, setup, and mature these Proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/). (Requirements from a standards body are one of the main reasons that a BCP may require changes, even breaking changes, as was the process when Gordian Envelope became an IETF Internet Draft.)
 
 This directory includes all documents that have matured and/or that have been turned over to standards or pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
 
 ## BCP
 
-See [Promotion](PROMOTION.md) for the administrative tasks to update a BCR to a BCP.
+### BCP Listing
+
+| Number                    | Title         | Version | Org. | Owner                                                  | Type          | Status   |
+|---------------------------|---------------|---------|-----|----------------------------------------------|---------------|----------|
+| [BCP-2020-001](bcp-2020-001.md) | BCP Template | 0.1.0 | | Christopher Allen | Process | Draft |
+
+_Also see our [Research](https://github.com/BlockchainCommons/Research/blob/master/README.md) and our [Testimony](https://github.com/BlockchainCommons/Testimony/blob/master/README.md)._
+
+Please feel free to submit a PR to request the advancement of a _BCR Work Item_ to a _BCP_ if it meets the criteria of two or more companies having implemented the BCR. Simply follow the administrative steps for [Promotion](PROMOTION.md). If a BCR does not have two-company commitment, but you think it's sufficiently mature and/or important, please [contact us](mailto:team@blockchaincommons.com).
 
 To create a BCP, first please consult the [BCP template](bcp-2020-001.md), which is BCP #2020-001.
 
@@ -30,17 +38,6 @@ If additional documentation is required, please PR a matching directory (e.g., a
 Please also add your BCP to the "BCP Listing" below.
 
 _All contributions to this repo require a [Signed Contributor License Agreement](CLA.md) (which will be needed if we submit to other organizations like IETF, W3C, Linux Foundation, etc.)._
-
-
-### BCP Listing
-
-| Number                    | Title         | Version | Org. | Owner                                                  | Type          | Status   |
-|---------------------------|---------------|---------|-----|----------------------------------------------|---------------|----------|
-| [BCP-2020-001](bcp-2020-001.md) | BCP Template | 0.1.0 | | Christopher Allen | Process | Draft |
-
-_Also see our [Research](https://github.com/BlockchainCommons/Research/blob/master/README.md) and our [Testimony](https://github.com/BlockchainCommons/Testimony/blob/master/README.md)._
-
-Please feel free to submit a PR to request the advancement of a _BCR Work Item_ to a _BCP_ if it meets the criteria of two or more companies have implemented the BCR. Simply follow the administrative steps for [Promotion](PROMOTION.md). If a BCR does not have two-company commitment, but you think it's sufficiently mature and/or important, please [contact us](mailto:team@blockchaincommons.com).
 
 ### BCP Number
 
