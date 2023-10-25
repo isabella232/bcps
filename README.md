@@ -5,7 +5,7 @@
 BCPs are Blockchain Commons Proposals, meant to promte open, interoperable, secure & compassionate digital infrastructure. These are still not standards, but they are more mature that our [BCR Research papers](https://github.com/BlockchainCommons/Research/blob/master/README.md) and/or have been deployed within a wider community. BCRs usually become BCPs if they meet at least one of two criteria:
 
 * Blockchain Commons feels that they have matured and are ready to advance.
-* Two or more companies are using a BCR, and it fulfills the [Gordian Principles](https://developer.blockchaincommons.com/principles/).
+* Two or more companies are using a BCR, it fulfills the [Gordian Principles](https://developer.blockchaincommons.com/principles/), and any conflicts with existing standards are understood, considered worthwhile, and clearly discussed.
 
 When a BCR becomes a BCP, we:
 * Consider the community to have become an important part of the conversation.
