@@ -2,9 +2,12 @@
 
 ![](images/logos/bcc-proposal-screen.png)
 
-WIPs are Wallet Improvement Proposals, meant to improve cryptocurrency and identity wallets. 
+BCPs are Blockchain Commons Proposals, meant to improve cryptocurrency and identity wallets. These are still not standards, but they are more mature that our [BCR Research papers](https://github.com/BlockchainCommons/Research/blob/master/README.md) and/or have been released to a wider community. BCRs usually become BCRs if they meet at least one of two criteria:
 
-The goal of Blockchain Commons is to specify, setup, and mature these proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/).
+* Blockchain Commons feels that they have matured, and are ready to advance.
+* Two or more companies are using an interoperable specification, and it fulfills the [Gordian Principals](https://developer.blockchaincommons.com/principles/).
+
+A BCP may still be fluid, but there will be community discussion for changes and generally a community-oriented process for continuing to expand the proposals. The ultimate goal is to specify, setup, and mature these Proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/). (Requirements from a standards body are one of the main reasons that a BCP may require changes, even breaking changes, as was the process when Gordian Envelope moved through the IETF.)
 
 This directory includes all wallet-related documents turned over to both standards and pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
 
@@ -21,13 +24,17 @@ Please also add your WIP to the "WIP Listing" below.
 _All contributions to this repo require a [Signed Contributor License Agreement](CLA.md) (which will be needed if we submit to other organizations like IETF, W3C, Linux Foundation, etc.)._
 
 
-### WIP Listing
+### BCP Listing
 
 | Number                    | Title         | Version | Org. | Owner                                                  | Type          | Status   |
 |---------------------------|---------------|---------|-----|----------------------------------------------|---------------|----------|
 | [WIP-2020-001](wip-2020-001.md) | WIP Template | 0.1.0 | | Christopher Allen | Process | Draft |
 | [WIP-2022-001](wip-2022-001.md) | Collaborative Seed Recovery | 1.0.0 | RWOT11 | Christopher Allen | Informational | Accepted |
 | [WIP-2022-002](wip-2022-002.md) | Elision, Redaction, and Noncorrelation in Smart Documents | 1.0.0 | RWOT11 | Christopher Allen | Informational | Draft |
+
+* *Process* documents are meant to help support the creation of BCPs.
+* *Informational* documents are descriptions that have been released to other organizations for discussion.
+* *Specifications* are more precise specifications, and the heart of the BCP process.
 
 _Also see our [Research](https://github.com/BlockchainCommons/Research/blob/master/README.md) and our [Testimony](https://github.com/BlockchainCommons/Testimony/blob/master/README.md)._
 
