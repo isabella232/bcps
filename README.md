@@ -1,6 +1,6 @@
 # Blackchain Commons Proposals
 
-![](images/logos/bcc-wips-screen.jpg)
+![](images/logos/bcc-proposal-screen.png)
 
 WIPs are Wallet Improvement Proposals, meant to improve cryptocurrency and identity wallets. 
 
