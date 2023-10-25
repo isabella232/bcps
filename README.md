@@ -1,4 +1,4 @@
-# WIPs: Wallet Improvement Proposals
+# Blackchain Commons Proposals
 
 ![](images/logos/bcc-wips-screen.jpg)
 
