@@ -2,10 +2,10 @@
 
 ![](images/logos/bcc-proposal-screen.png)
 
-BCPs are Blockchain Commons Proposals, meant to create open, interoperable, secure & compassionate digital infrastructure. These are still not standards, but they are more mature that our [BCR Research papers](https://github.com/BlockchainCommons/Research/blob/master/README.md) and/or have been deployed within a wider community. BCRs usually become BCPs if they meet at least one of two criteria:
+BCPs are Blockchain Commons Proposals, meant to promte open, interoperable, secure & compassionate digital infrastructure. These are still not standards, but they are more mature that our [BCR Research papers](https://github.com/BlockchainCommons/Research/blob/master/README.md) and/or have been deployed within a wider community. BCRs usually become BCPs if they meet at least one of two criteria:
 
 * Blockchain Commons feels that they have matured and are ready to advance.
-* Two or more companies are using a BCR, and it fulfills the [Gordian Principals](https://developer.blockchaincommons.com/principles/).
+* Two or more companies are using a BCR, and it fulfills the [Gordian Principles](https://developer.blockchaincommons.com/principles/).
 
 When a BCR becomes a BCP, we:
 * Consider the community to have become an important part of the conversation.
@@ -13,7 +13,7 @@ When a BCR becomes a BCP, we:
 
 A BCP may still be fluid, but there will be community discussion for changes and generally a community-oriented process for continuing to expand the proposals. The ultimate goal is to specify, setup, and mature these Proposals, and thereafter turn them over to another authority, possible as a [BIP](https://github.com/bitcoin/bips), an [IETF draft](https://www.ietf.org/standards/ids//), or  a [W3C standard](https://www.w3.org/standards/). (Requirements from a standards body are one of the main reasons that a BCP may require changes, even breaking changes, as was the process when Gordian Envelope became an IETF Internet Draft.)
 
-This directory includes all wallet-related documents that have matured and/or that have been turned over to standards or pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
+This directory includes all documents that have matured and/or that have been turned over to standards or pre-standards organizations, with the latter also including [Rebooting the Web of Trust](https://www.weboftrust.info/). 
 
 ## WIPs
 
